@@ -1,0 +1,28 @@
+# Upload only action directory contents
+/*
+!/action/
+!/.gitignore
+
+# Environment files
+.env
+.env.*
+action/frontend/.env
+action/frontend/.env.*
+action/contracts/.env
+action/contracts/.env.*
+
+# Hardhat deployments (keep localhost only)
+action/contracts/deployments/*
+!action/contracts/deployments/localhost
+!action/contracts/deployments/localhost/**
+
+# Node logs and caches
+npm-debug.log*
+yarn-error.log*
+.cache
+dist
+out
+build
+node_modules
+
+
