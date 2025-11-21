@@ -25,4 +25,10 @@ out
 build
 node_modules
 
+# Next.js build output
+action/frontend/.next
+
+# macOS
+**/.DS_Store
+
 
