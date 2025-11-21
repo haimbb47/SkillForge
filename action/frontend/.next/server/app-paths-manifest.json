@@ -1,9 +1,0 @@
-{
-  "/badges/page": "app/badges/page.js",
-  "/claim-badge/page": "app/claim-badge/page.js",
-  "/forge-course/page": "app/forge-course/page.js",
-  "/page": "app/page.js",
-  "/submit-proof/page": "app/submit-proof/page.js",
-  "/validate/page": "app/validate/page.js",
-  "/validated/page": "app/validated/page.js"
-}
